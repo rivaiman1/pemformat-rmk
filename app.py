@@ -19,7 +19,7 @@ with st.form("form_pemformat"):
         npm = st.text_input("NPM", value="24013010138")
     with col2:
         matkul = st.text_input("Nama Mata Kuliah", placeholder="Isi Mata Kuliah")
-        judul_bab = st.text_input("Judul Bab / Topik", value="")
+        judul_bab = st.text_input("Judul Bab / Topik", placeholder="Isi Judul Bab")
     
     st.subheader("Pengaturan Simpan File")
     # Input kustom nama file
