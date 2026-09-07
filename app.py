@@ -15,7 +15,7 @@ with st.form("form_pemformat"):
     st.subheader("Data Mahasiswa & Mata Kuliah")
     col1, col2 = st.columns(2)
     with col1:
-        nama = st.text_input("Nama Lengkap", value="Muhammad Dzulfikri Rivai")
+        nama = st.text_input("Nama Lengkap", value="Jokur")
         npm = st.text_input("NPM", value="24013010138")
     with col2:
         matkul = st.text_input("Nama Mata Kuliah", placeholder="Isi Mata Kuliah")
